@@ -1,0 +1,35 @@
+#firstScreen{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#screenHeader{
+    width: 100%;
+    background-image: url('../../images/firstScreen/titleBlock.svg');
+}
+
+#screenVideoBlock{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, .7);
+    border-radius: var(--border-radius);
+    display: none;
+}
+
+#videoCloseButton{
+    width: 30px;
+    height: 30px;
+    align-self: flex-end;
+    margin: var(--spacing-xl) var(--spacing-xl) 0 0;
+    cursor: pointer;
+}
+
+#video{
+    width: 360px;
+    margin-top: 200px;
+}

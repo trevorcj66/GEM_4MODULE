@@ -1,0 +1,10 @@
+#secondScreen{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#screenHeader{
+    width: 100%;
+    background-image: url('../../images/secondScreen/titleBlock.svg');
+}
